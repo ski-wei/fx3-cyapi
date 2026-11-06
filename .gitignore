@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+build/
+dist/
+.venv/
+artifacts/
+*.egg-info/
+*.pyd
+*.dll
+*.lib
+*.obj
+*.pdb
+*.whl
+.vs/
+.idea/
+.env
+.env.*
+# Third-party reference material stays local and is never committed.
+/CyAPI/
+/CyUSB3_USB_Suite_Source/
+/.agents/
+/.codex/
+/.aws/
