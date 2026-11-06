@@ -196,3 +196,11 @@ wheel 生成在 `dist/`，需匹配 CPython ABI 和 Windows 架构。`scripts\pa
 | [`tests/`](tests/) | 内核与 GUI 测试 |
 
 相关文档：[pybind11 GIL](https://pybind11.readthedocs.io/en/stable/advanced/misc.html)、[buffer protocol](https://pybind11.readthedocs.io/en/stable/advanced/pycpp/numpy.html)。官方源码和驱动应按其许可单独获取与使用。
+
+## 开发署名
+
+本项目使用 OpenAI Codex 辅助开发。由 Codex 协助完成的提交保留开发者为主要作者，并在提交信息末尾添加共同作者署名：
+
+```text
+Co-authored-by: Codex <noreply@openai.com>
+```
